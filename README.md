@@ -1,3 +1,7 @@
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Arduino](https://img.shields.io/badge/platform-Arduino-orange)
+![Language](https://img.shields.io/badge/language-C++-blue)
+
 # MG995 Closed-Loop Axis Control System
 
 An embedded robotic axis control implementation using the MG995 high-torque servo motor with PWM-based positioning and feedback validation for precise angular control.
