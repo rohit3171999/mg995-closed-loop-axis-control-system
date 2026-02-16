@@ -21,24 +21,53 @@ Please follow this step-by-step workflow:
 
 # 🧾 2. Commit Message Format (Mandatory)
 
-This repository follows a structured commit convention inspired by **Conventional Commits**.
 
-## ✅ Format
+Follow [Conventional Commits](https://www.conventionalcommits.org/):
 
+```
+<type>(<scope>): <subject>
 
-## 🔹 Allowed Commit Types
+<body>
 
-- `feat:` → Adding a new feature  
-- `fix:` → Fixing a bug  
-- `docs:` → Documentation updates  
-- `refactor:` → Code restructuring (no functionality change)  
-- `style:` → Formatting changes (indentation, spacing)  
-- `test:` → Testing-related updates  
+<footer>
+```
 
+#### Types
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation changes
+- `style`: Code style changes (formatting, no logic change)
+- `refactor`: Code refactoring
+- `test`: Adding or updating tests
+- `chore`: Maintenance tasks
 
-❗ Commits like `update`, `changes`, `final`, `done` are NOT allowed.
+#### Examples
+```bash
+feat(auth): implement login functionality
+
+- Add LoginForm component
+- Add authentication service
+- Add tests for login flow
+
+Closes #123
 
 ---
+
+fix(search): resolve case-sensitive search issue
+
+The search was not working with uppercase letters.
+Now it converts search query to lowercase.
+
+Fixes #145
+
+---
+
+test(ui): add tests for Button component
+
+- Test rendering with different variants
+- Test click handlers
+- Test disabled state
+```
 
 # 📚 3. Documentation Requirements (Doxygen Mandatory)
 
