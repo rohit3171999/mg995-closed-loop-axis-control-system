@@ -146,7 +146,7 @@ The system uses the `Servo.h` library to generate PWM signals for angular positi
 
 ```cpp
 /**
- * @file main.ino
+ * @file main.cpp
  * @brief MG995 Closed-Loop Axis Control System
  * @author YOUR_NAME
  * @date YYYY-MM-DD
